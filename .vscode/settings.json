@@ -1,0 +1,9 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "code-runner.executorMap": {
+    "cpp": "bash -lc 'mkdir -p \"$workspaceRoot/build\" && /opt/homebrew/bin/g++-15 -std=c++17 -O2 -Wall \"$fullFileName\" -o \"$workspaceRoot/build/$fileNameWithoutExt\" && \"$workspaceRoot/build/$fileNameWithoutExt\" < \"$workspaceRoot/build/input.txt\" > \"$workspaceRoot/build/output.txt\"'"
+  }
+}
