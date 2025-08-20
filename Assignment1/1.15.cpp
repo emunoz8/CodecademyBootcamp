@@ -18,10 +18,8 @@ int main() {
 
     for (int j = pad; j < n; j++) {
       num = (j < mid) ? num - 1 : num + 1;
-      if (j < n - pad - offset)
-        cout << num;
-      else
-        cout << " ";
+
+      cout << (j < n - pad - offset ? to_string(num) : " ");
     }
 
     cout << endl;
