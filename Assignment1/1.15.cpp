@@ -11,6 +11,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     pad = (i > mid) ? pad + 1 : pad - 1;
     num = mid + offset;
+
     for (int j = 0; j <= pad; j++) {
       num--;
       cout << " ";
@@ -18,7 +19,6 @@ int main() {
 
     for (int j = pad; j < n; j++) {
       num = (j < mid) ? num - 1 : num + 1;
-
       cout << (j < n - pad - offset ? to_string(num) : " ");
     }
 
