@@ -9,7 +9,6 @@ int main() {
   cin >> n;
 
   for (int i = 1; i <= n * 2 - 1; i++) {
-    
     if (i <= n) {
       space = (n - i) * 2;
       stars++;
@@ -18,15 +17,11 @@ int main() {
       stars--;
     }
 
-    for (int j = 0; j < stars; j++) {
-      cout << "*";
-    }
+    for (int j = 0; j < stars; j++) cout << "*";
 
     for (int j = 0; j < space; j++) cout << " ";
 
-    for (int j = 0; j < stars; j++) {
-      cout << "*";
-    }
+    for (int j = 0; j < stars; j++) cout << "*";
 
     cout << endl;
   }
