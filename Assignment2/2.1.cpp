@@ -110,10 +110,9 @@ int main() {
   // order.
   // descendingBubbleSortRecursive(arr, n-1);
 
-  // 6.  Update Merge Sort (merge step) to arrange elements in descending order && Update Quick Sort (partition step) to arrange elements in descending order.
-
-
-
+  // 6.  Update Merge Sort (merge step) to arrange elements in descending order
+  // && Update Quick Sort (partition step) to arrange elements in descending
+  // order.
 
   printArray(arr);
 }
