@@ -194,7 +194,7 @@ int main() {
   // 7.  Update Quick Sort (partition step) to arrange elements in descending
   // order.
 
-  // descendingQuickSort(arr, 0, n - 1);
+  descendingQuickSort(arr, 0, n - 1);
 
   printArray(arr);
 }
